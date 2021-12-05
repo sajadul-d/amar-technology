@@ -1,0 +1,159 @@
+.grid {
+    display: grid;
+  }
+  
+  .header {
+    width: 100%;
+  }
+  
+  .header.grid {
+    grid-template-columns: 200px auto;
+    grid-gap: 20px;
+  }
+  
+  .header img {
+    width: 200px;
+  }
+  
+  .banner {
+    width: 100%;
+    position: relative;
+  }
+  
+  .nav {
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    height: 50px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+    color: white;
+    margin: 0 10px;
+  }
+  .nav a:hover{
+      color: rgb(153, 119, 184);
+      
+  }
+  .alert-search {
+    text-align: right;
+  }
+  
+  .banner img {
+    width: 100%;
+  }
+  
+  .callouts {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .callouts.grid {
+    grid-template-columns: repeat(5, 1fr);
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .callouts a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+  .callouts a:hover {
+    background: red;
+    border-radius: 12px;
+  }
+  
+  .news {
+    width: 100%;
+  }
+  
+  .news img {
+    width: 100%;
+  }
+  
+  .news h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: blue;
+    font-size: 35px;
+  }
+  
+  .articles.grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .articles .article {
+    border: 1px solid black;
+  }
+  
+  .articles .article .article-text {
+    padding: 0 20px;
+  }
+  
+  .articles .article .category-text {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  
+  .all-news-button {
+    padding: 30px 0;
+    text-align: center;
+  }
+  .all-news-button button {
+    background: red;
+    padding: 10px;
+    color: white;
+    border-radius: 12px;
+  }
+  
+  section.tech-guides {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  section.tech-guides h2 {
+    text-transform: uppercase;
+  }
+  
+  section.tech-guides p.larger-text {
+    font-size: 25px;
+  }
+  section.tech-guides select {
+    font-size: 25px;
+  }
+  
+  section.tech-guides .link-tech-guides button {
+    background: red;
+    padding: 10px;
+    color: white;
+    border-radius: 12px;
+  }
+
+
+  .circle2{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    color: #00bd84;
+    font-size: 40px;
+    display: inline-block;
+    text-align: center ;   
+    
+}
+.circle2:hover{
+    background-color: rgb(145, 34, 117);
+
+}
